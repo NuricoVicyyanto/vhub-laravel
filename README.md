@@ -1,6 +1,14 @@
 # vhub-laravel
 
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-green)](https://opensource.org)
+[![GitHub issues](https://img.shields.io/github/issues/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/issues)
+[![GitHub forks](https://img.shields.io/github/forks/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/stargazers)
+[![GitHub contributors](https://img.shields.io/github/contributors/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/commits)
+[![PRs Welcome](https://img.shields.io/badge/PRs%20Welcome-Yes-blue)](https://github.com/nuricovicyyanto/vhub-laravel/pulls)
+
 
 This repository contains the code for the **vhub-laravel** project. It is a web application built with **Laravel** to provide users access to datasets and APIs through a user-friendly interface. The application is designed to be dynamic and responsive, leveraging Laravel's powerful backend features and handling data from external APIs.
 
