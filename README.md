@@ -1,117 +1,66 @@
-# vhub-laravel
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9C%94-green)](https://opensource.org)
-[![GitHub issues](https://img.shields.io/github/issues/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/issues)
-[![GitHub forks](https://img.shields.io/github/forks/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/network/members)
-[![GitHub stars](https://img.shields.io/github/stars/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/stargazers)
-[![GitHub contributors](https://img.shields.io/github/contributors/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/nuricovicyyanto/vhub-laravel)](https://github.com/nuricovicyyanto/vhub-laravel/commits)
-[![PRs Welcome](https://img.shields.io/badge/PRs%20Welcome-Yes-blue)](https://github.com/nuricovicyyanto/vhub-laravel/pulls)
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
+## About Laravel
 
-This repository contains the code for the **vhub-laravel** project. It is a web application built with **Laravel** to provide users access to datasets and APIs through a user-friendly interface. The application is designed to be dynamic and responsive, leveraging Laravel's powerful backend features and handling data from external APIs.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Features
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-- **Responsive Design**: Built with Laravel and frontend technologies to ensure compatibility across all devices.
-- **Data Access**: Allows users to browse and access various datasets and API resources.
-- **Real-Time Updates**: Fetch and view data in real-time from different APIs integrated into the platform.
-- **User-Friendly Interface**: A clear and intuitive interface for easy navigation and quick data access.
-- **API Integration**: Seamlessly interact with external APIs to fetch and display data.
-- **Search and Filter**: Built-in search and filter capabilities to easily find and explore datasets.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Installation
+## Learning Laravel
 
-To get started with this project, follow the steps below to run it locally on your machine:
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/nuricovicyyanto/vhub-laravel.git
-    ```
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-2. Navigate to the project folder:
-    ```bash
-    cd vhub-laravel
-    ```
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-3. Install the necessary dependencies:
-    ```bash
-    composer install
-    ```
+## Laravel Sponsors
 
-4. Set up your environment file:
-    ```bash
-    cp .env.example .env
-    ```
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-5. Generate the application key:
-    ```bash
-    php artisan key:generate
-    ```
+### Premium Partners
 
-6. Run database migrations (if applicable):
-    ```bash
-    php artisan migrate
-    ```
-
-7. Start the development server:
-    ```bash
-    php artisan serve
-    ```
-
-8. Open the application in your browser by visiting `http://localhost:8000`.
-
-## Usage
-
-Once you've opened the project in your browser, you can interact with the dataset and API browsing system. Here are some of the key interactions:
-
-- **Viewing Datasets**: Browse through available datasets and view detailed information.
-- **Searching for Data**: Use the search bar to filter datasets by keywords or categories.
-- **API Integration**: Connect with external APIs to fetch live data and view the results directly on the platform.
-
-## Technologies Used
-
-- **Laravel**: The back-end framework for building the application and handling server-side logic.
-- **Bootstrap**: For a responsive and modern design.
-- **Axios**: For making HTTP requests to external APIs and fetching datasets.
-- **MySQL**: For managing the database (optional based on your implementation).
-- **Blade Templates**: For rendering dynamic pages in the application.
-- **Laravel Artisan**: For running commands related to the Laravel application (migrations, key generation, etc.).
-
-## Resources for Learning Web Development
-
-If you're new to web development or want to improve your skills, here are some helpful resources:
-
-- [Laravel Documentation](https://laravel.com/docs)
-- [Bootstrap Documentation](https://getbootstrap.com/)
-- [Axios Documentation](https://axios-http.com/)
-- [PHP Documentation](https://www.php.net/)
-- [MySQL Documentation](https://dev.mysql.com/doc/)
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
 ## Contributing
 
-If you would like to contribute to this project, follow these steps:
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-1. Fork this repository
-2. Create a new branch (`git checkout -b new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin new-feature`)
-5. Create a pull request
+## Code of Conduct
 
-We welcome contributions to improve the vhub-laravel project, whether it's bug fixes, adding new features, or enhancing the user interface.
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## FAQ
+## Security Vulnerabilities
 
-### How do I deploy this project to a live server?
-To deploy this project to a live server, you can use services like [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/), or [Vercel](https://vercel.com/) for hosting Laravel applications.
-
-### Can I customize the available datasets and APIs?
-Yes, you can customize the datasets and APIs by modifying the data-fetching logic in the Laravel controllers or adding new API endpoints in the backend.
-
-### Is there a front-end framework for this application?
-While this project is primarily focused on Laravel for backend logic, you can integrate any front-end framework (such as Vue.js or React.js) to enhance the user interface as needed.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-This project is licensed under the [MIT](LICENSE) License.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
