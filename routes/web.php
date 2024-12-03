@@ -2,10 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DatasetController;
+use App\Http\Controllers\HomeController;
 
-Route::get('/', function () {
+Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/dashboard', function () {
     return view('auth.login');
 });
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
